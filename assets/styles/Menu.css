@@ -1,0 +1,120 @@
+header {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  /*background-color: #e48383*/
+}
+
+.logo {
+  width: 200px;
+  position: absolute;
+  top: 10px;
+  right: calc(50% - 100px);
+}
+
+.logo:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.flecha {
+  width: 20px;
+  margin: 0   0   0   5%;
+}
+
+nav > ul {
+  width: 100%;
+  padding: 100px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  /*background-color: #4819a0 */
+  gap: 0.5%;
+}
+
+nav > ul > li {
+  width: 18%;
+}
+
+nav > ul > li > a {
+  padding: 5px 0;
+  width: 100%;
+  font-weight: bold;
+  color: #000;
+  background-color: #c54813;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 8px #492700;
+          box-shadow: 5px 5px 8px #492700;
+}
+
+nav > ul > li > ul > li > a {
+  padding: 4px;
+  margin: 2px;
+  width: 100%;
+  color: #000;
+  background-color: #e96c36;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+}
+
+/*menu abatible*/
+nav > ul > li > :hover > .flecha {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+nav > ul > li > ul {
+  display: none;
+}
+
+nav > ul > li:hover > a {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #aa3e10;
+  text-shadow: 0 0 3px #ce9f05;
+  color: #d8a604;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+nav > ul > li:hover > ul {
+  display: block;
+  position: absolute;
+  width: 12.2%;
+}
+
+nav > ul > li > ul > li:hover > a {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background-color: #d6612f;
+  text-shadow: 0 0 3px #ce9f05;
+  color: #d8a604;
+}
+/*# sourceMappingURL=Menu.css.map */

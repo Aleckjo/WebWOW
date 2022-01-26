@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../src/Generales/FondoAli.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #000;
+}
+
+main {
+  width: 97%;
+  max-width: 1800px;
+  margin: auto;
+  color: #f1eacb;
+  text-shadow: 0 0 5px #000000;
+}
+
+.Titulo {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.Bloque {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+  padding: 0 0 2%;
+}
+
+.BloqueClass {
+  width: 100%;
+  padding: 10px;
+  margin: 0.5% 0%;
+}
+
+.ContRaza {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 40%;
+  gap: 0.5%;
+}
+
+.Raza {
+  background-color: #212125d8;
+  width: 13.5%;
+  border: 1px solid #ebe97d;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 3px;
+          box-shadow: inset 0 0 3px;
+  height: 100%;
+}
+
+.Raza:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.aRaza {
+  color: #f1eacb;
+  text-shadow: 0 0 3px #141414;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+
+.ImgRaza {
+  width: 100%;
+}
+
+.Descripcion {
+  text-align: center;
+  padding: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.h2Raza {
+  padding: 1%;
+  font-weight: 400;
+  font-size: 100%;
+}
+/*# sourceMappingURL=Alianza.css.map */
